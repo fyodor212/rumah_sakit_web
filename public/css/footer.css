@@ -1,0 +1,123 @@
+/* Footer Styles */
+.footer {
+    background-color: #1e293b !important;
+    color: #ffffff !important;
+    padding: 60px 0 30px;
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+}
+
+.footer * {
+    background-color: transparent !important;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer .row {
+    margin: -15px;
+}
+
+.footer .col-md-4 {
+    padding: 15px;
+}
+
+.footer h3 {
+    color: #ffffff !important;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer p {
+    color: #ffffff !important;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.footer i {
+    width: 20px;
+    margin-right: 10px;
+    color: #3b82f6 !important;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ffffff !important;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    padding-left: 5px;
+    color: #3b82f6 !important;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+    margin: 0;
+    opacity: 0.6;
+    color: #ffffff !important;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding: 40px 0 20px;
+    }
+    
+    .footer .col-md-4 {
+        margin-bottom: 30px;
+    }
+    
+    .footer .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+    
+    .footer-links {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+/* Fix untuk Bootstrap container */
+.footer .container,
+.footer .row,
+.footer .col-md-4 {
+    background-color: transparent !important;
+}
+
+/* Fix untuk gap antara sections */
+.testimonials {
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+}
+
+main {
+    min-height: calc(100vh - 400px);
+    background-color: #ffffff;
+} 

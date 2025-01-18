@@ -1,0 +1,10 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font: bold 24px sans-serif; fill: #2196F3; }
+        .icon { fill: #2196F3; }
+    </style>
+    <g transform="translate(10,40)">
+        <path class="icon" d="M20,0h8v-8h8v-8h-8v-8h-8v8h-8v8h8v8z"/>
+        <text class="text" x="45" y="0">RS Sehat</text>
+    </g>
+</svg> 

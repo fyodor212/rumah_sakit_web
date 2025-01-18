@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-item i {
+    width: 20px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,.05);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 15px 20px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+/* Form Styles */
+.form-control {
+    padding: 0.75rem 1rem;
+    border-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    margin-top: auto;
+}
+
+.footer h5 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin: 1rem 0;
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 0.25rem 0;
+    }
+    
+    .navbar-nav .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+} 
+
+/* Tambahkan style untuk logo */
+.navbar-brand {
+    font-size: 1.25rem;
+}
+
+.navbar-brand i {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover i {
+    transform: scale(1.1);
+}
